@@ -31,7 +31,7 @@ border: 1px solid #ddd;
 }
 
 .bgimage {
-background-image: url('../images/lavender_camera.jpg');
+background-image: url('{{ site.github.url }}/images/lavender_camera.jpg');
 background-size: 100%;
 min-height: 617.5px;
 }
@@ -41,7 +41,7 @@ padding-top: 75%;
 }*/
 
 .frontpage {
-  background: url('/images/lavender_camera.jpg') center center /cover no-repeat;
+  background: url('{{ site.github.url }}/images/lavender_camera.jpg') center center /cover no-repeat;
   min-height: 100vh;
   margin-top: -53.6px;
   padding-top: 53.6px;
@@ -70,7 +70,7 @@ padding-top: 75%;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	justify-content: center;
-	background: url(../images/lavender_camera.jpg) center center /cover no-repeat;
+	background: url({{ site.github.url }}/images/lavender_camera.jpg) center center /cover no-repeat;
   min-height: 100vh;
   color: honeydew;
   margin: auto;
