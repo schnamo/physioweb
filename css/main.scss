@@ -41,7 +41,7 @@ padding-top: 75%;
 }*/
 
 .frontpage {
-  background: url('../images/lavender_site.jpg') center center /cover no-repeat;
+  background: url('../images/lavender_camera.jpg') center center /cover no-repeat;
   min-height: 100vh;
   margin-top: -53.6px;
   padding-top: 53.6px;
@@ -58,4 +58,30 @@ padding-top: 75%;
 
 .change_color {
   color: whitesmoke;
+}
+
+.mh-jumbotron {
+	box-sizing: inherit;
+	display: flex;
+  background-size: 100%;
+  -webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	background: url(../images/lavender_camera.jpg) center center /cover no-repeat;
+  min-height: 100vh;
+  color: honeydew;
+  margin: auto;
+  margin-top : -23.6px;
+  font-family: Calibri;
+	text-shadow: .15rem .15rem .35rem #000;
+}
+
+.mh-jumbotron__title {
+	-webkit-animation: .5s .25s fade backwards ease-out;
+	animation: .5s .25s fade backwards ease-out;
+	text-align: center;
+	margin: auto;
 }
